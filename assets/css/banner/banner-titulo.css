@@ -1,0 +1,26 @@
+.banner__titulo {
+    color: #fdfdfd;
+    font-family: Pacifico, cursive; /* ultilizando API do google fonts*/
+    font-size: 5.0625rem;
+    position: absolute; /* esta sendo absoluto em relação a pag, obs relativo ao seu pai o banner*/
+    left: 50%; 
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 50%; /* 50% ao topo*/
+    text-align: center; /* alinha o texto no centro*/
+    transform: translate(-50%, -50%); /* eixo x e y, centraliza o texto no centro */
+    width: 100%;
+}
+
+@media screen and (min-width: 0){
+
+    .banner__titulo {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+    .banner__titulo {
+        font-size: 5.0625rem;
+    }
+}
